@@ -1,0 +1,6 @@
+# to find square root of a given number (n) within a given precision (p).
+
+n = float(input("Enter the number: "))
+p= int(input("Enter precision value"))
+num_sq = n ** 0.5
+print("Square Root of %0.2f is %0.2f" %(n, num_sq));
